@@ -1,4 +1,4 @@
-# DDS (Domain-Driven Solver)
+# DDS (Domain-Driven Solver) version 2.0
 Domain-Driven Solver (DDS) is a MATLAB-based software package for convex optimization problems in Domain-Driven form. The current version of DDS accepts every combination of the following function/set constraints: 
 - Symmetric cones (LP, SOCP, and SDP)
 - Quadratic constraints that are SOCP representable 
@@ -11,3 +11,30 @@ functions (including as special cases geometric programming and entropy programm
 - Hyperbolic polynomials
 
 DDS is a practical implementation of the infeasible-start primal-dual algorithm designed and analyzed in [this paper](https://arxiv.org/abs/1804.06925). 
+
+
+## Installation 
+To use DDS, the user can follow these steps:
+
+- run MATLAB in the directory DDS;
+- run the m-file `DDS_startup.m`.
+-  (optional) run the prepared small examples `DDS_example_1.m` and `DDS_example_2.m`.
+
+The prepared examples contain many set constraints accepted by DDS and running them without error indicates that DDS is ready to use. There is a directory `Text_Examples` in the DDS package which includes many examples on different classes of convex optimization problems. 
+
+## How to use DDS
+
+The command in MATLAB that calls DDS is 
+```
+[x,y,info]=DDS(c,A,b,cons,OPTIONS);
+``` 
+
+**Input Arguments:**
+- `cons`:  A cell array that contains the information about the type of constraints. 
+- `c,A,b`: Input data for DDS: `A` is the coefficient matrix, `c` is the objective vector, `b` is the RHS vector (i.e., the shift in the definition of the convex domain D). 
+- `OPTIONS` (optional): An array which contains information about the tolerance  and initial points.  
+
+**Output Arguments:**
+- `x`: Primal point. 
+- `y`: Dual point which is a cell array. Each cell contains the dual solution for the constraints in the corresponding cell  in `A`. 
+- `info`: A structure array containing performance information such as `info.time`, which returns the CPU time for solving the problem. 
