@@ -38,3 +38,5 @@ The command in MATLAB that calls DDS is
 - `x`: Primal point. 
 - `y`: Dual point which is a cell array. Each cell contains the dual solution for the constraints in the corresponding cell  in `A`. 
 - `info`: A structure array containing performance information such as `info.time`, which returns the CPU time for solving the problem. 
+
+To add different types of set/function constraints, please see the users' guide. 
