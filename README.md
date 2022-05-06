@@ -1,4 +1,4 @@
-# DDS (Domain-Driven Solver) version 2.0
+# DDS (Domain-Driven Solver) version 2.1
 Domain-Driven Solver (DDS) is a MATLAB-based software package for convex optimization problems in Domain-Driven form. The current version of DDS accepts every combination of the following function/set constraints: 
 - Symmetric cones (LP, SOCP, and SDP)
 - Quadratic constraints that are SOCP representable 
