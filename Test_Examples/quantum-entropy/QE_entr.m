@@ -11,7 +11,7 @@
 %% by 
 %%      min    x5    QE(x1*A1+x2*A2+x3*A3+x4*A4)<=x5, ...
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
