@@ -6,7 +6,7 @@
 %%    x^T (A^T Q A) x <= k
 %% Note that Q may have one nagative eigenvalue. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
