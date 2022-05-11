@@ -4,7 +4,7 @@
 %% If the SDP has an optimal solution with obj value=0, p(x) is non-negative and if it is unbounded, 
 %% p(x) is not non-negative. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
