@@ -7,7 +7,7 @@
 %%        - straight_line program
 %%        - determinantal
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

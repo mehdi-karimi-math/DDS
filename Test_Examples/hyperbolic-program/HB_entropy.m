@@ -6,7 +6,7 @@
 %%                    x_1*ln(x_1)+x_2*ln(x_2)+x_3*ln(x_3) <= t. 
 %%                          p(Ax+b) >= 0. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

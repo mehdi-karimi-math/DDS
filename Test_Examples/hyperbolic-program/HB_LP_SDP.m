@@ -6,7 +6,7 @@
 
 %% We also have the linear constraint x_1+x_2 >= 2. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -47,7 +47,7 @@
  A{3,1}=[1 0 0; 0 1 0;0 0 1];
  b{3,1}=[0;0;0];
  
-
+ % objective function
  c=[1;1;1];
  
  [x,y,info]=DDS(c,A,b,cons);
