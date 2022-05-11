@@ -4,7 +4,7 @@
 %%         exp(a_1^T x+b_1)+...+exp(a_l^T x+b_l)+d^T x+e <= 0. 
 %% The coefficients are generated randomly. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -23,8 +23,9 @@ A{1,1}=rand(2*(num_fun+1),num_var);
 b{1,1}=rand(2*(num_fun+1),1);
 
 
-
+% objective function 
 c=ones(num_var,1);
+
 [x,y]=DDS(c,A,b,cons);
 
 

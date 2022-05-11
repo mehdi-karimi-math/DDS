@@ -5,7 +5,7 @@
 %% where f(z)=zln(z).
 %% The coefficients are generated randomly. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -25,9 +25,10 @@ A{1,1}=rand(2*(num_fun+1),num_var);
 b{1,1}=rand(2*(num_fun+1),1);
 
 
-
+% objective function
 c=ones(num_var,1);
-[x,y]=DDS(c,A,b,cons);
+
+[x,y,info]=DDS(c,A,b,cons);
 
 
 
