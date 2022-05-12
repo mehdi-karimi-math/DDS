@@ -9,7 +9,7 @@
 
 %% For the general case, please see the users' guide. 
 
-%% Copyright (c) 2020, by 
+%% Copyright (c) 2022, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -26,14 +26,16 @@ U2 = round(rand(m,n));
 cons{1,1}='MN';
 cons{1,2}=[m n];
 A{1,1}=[m2vec(U1,n) m2vec(U2,n);  zeros(m^2,1) zeros(m^2,1)];
-b{1,1}=[zeros(m*n,1); sm2vec(eye(m))];    
+b{1,1}=[zeros(m*n,1); sm2vec(eye(m))];   
+
+% objective function, constructed from the RHS vector in (P).
 c=[-1;-2];
 
 
 [x,y,info]=DDS(c,A,b,cons);
 
 
-%%% The optimal solution of the primal problem is 
+%%% The optimal solution of the primal problem (nuclear norm minimization) is 
 X_DDS=vec2m(y{1}(1:m*n),m)';
 
 
