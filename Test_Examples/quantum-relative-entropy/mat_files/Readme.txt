@@ -9,6 +9,6 @@ load(problem_name);
 [x,y,info]=DDS(c,A,b,cons);
 
 
-Copyright (c) 2020, by 
+Copyright (c) 2023, by 
 Mehdi Karimi
 Levent Tuncel
