@@ -14,7 +14,7 @@ functions (including as special cases geometric programming and entropy programm
 
 DDS is a practical implementation of the infeasible-start primal-dual algorithm designed and analyzed in [this paper](https://arxiv.org/abs/1804.06925). 
 
-DDS 2.2 will be released in Dec 2023, with extensive update for quantum relative entropy (QRE) programming. 
+DDS 2.2 is released in Dec 2023, with extensive update for quantum relative entropy (QRE) programming. The current version can solve much larger instances of QRE programming. Please see [this paper](https://arxiv.org/abs/2312.07438).
 
 ## Installation 
 To use DDS, the user can follow these steps:
@@ -46,3 +46,5 @@ To see how to define `c,A,b,cons` and how to add different types of set/function
 
 ## Citing
 To cite DDS software package in your work, you can cite [this paper](https://arxiv.org/abs/1908.03075v2).
+
+To cite DDS 2.2 for solving quantum relative entorpy (QRE), please additionally cite [this paper](https://arxiv.org/abs/2312.07438).
