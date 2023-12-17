@@ -42,7 +42,7 @@ The command in MATLAB that calls DDS is
 - `y`: Dual point which is a cell array. Each cell contains the dual solution for the constraints in the corresponding cell  in `A`. 
 - `info`: A structure array containing performance information such as `info.time`, which returns the CPU time for solving the problem. 
 
-To see how to define `c,A,b,cons` and how to add different types of set/function constraints, please see the [users' guide](DDS_users_guide_V2.pdf). 
+To see how to define `c,A,b,cons` and how to add different types of set/function constraints, please see the [users' guide](DDS_users_guide_V2.1.pdf). 
 
 ## Citing
 To cite DDS software package in your work, you can cite [this paper](https://arxiv.org/abs/1908.03075v2).
