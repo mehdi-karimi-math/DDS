@@ -2,7 +2,7 @@
 %% DDS_startup.m: Run this file to install DDS. 
 %%
 %%
-%% Copyright (c) 2022, by 
+%% Copyright (c) 2024, by 
 %% Mehdi Karimi
 %% Levent Tuncel
 
