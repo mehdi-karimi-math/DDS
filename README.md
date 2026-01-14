@@ -1,4 +1,4 @@
-# DDS (Domain-Driven Solver) version 2.2 
+# DDS (Domain-Driven Solver) version 3.0
 Previous version DDS 2.1 [![DOI](https://zenodo.org/badge/302381874.svg)](https://zenodo.org/badge/latestdoi/302381874)
 
 Domain-Driven Solver (DDS) is a MATLAB-based software package for convex optimization problems in Domain-Driven form. The current version of DDS accepts every combination of the following function/set constraints: 
@@ -14,7 +14,9 @@ functions (including as special cases geometric programming and entropy programm
 
 DDS is a practical implementation of the infeasible-start primal-dual algorithm designed and analyzed in [this paper](https://arxiv.org/abs/1804.06925). 
 
-DDS 2.2 is released in Dec 2023, with extensive update for quantum relative entropy (QRE) programming. The current version can solve much larger instances of QRE programming. Please see [this paper](https://arxiv.org/abs/2312.07438).
+## Updates
+- **DDS 3.0**, released in **January 2026**, includes a fundamental update for solving **hyperbolic programming** problems, enabling efficient handling of polynomials represented as **straight-line programs (SLPs)**.
+- **DDS 2.2** is released in Dec 2023, with extensive update for **quantum relative entropy (QRE) programming**. The current version can solve much larger instances of QRE programming. Please see [this paper](https://arxiv.org/abs/2312.07438).
 
 ## Installation 
 To use DDS, the user can follow these steps:
