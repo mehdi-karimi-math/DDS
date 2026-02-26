@@ -1,8 +1,8 @@
 
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% An example to check if DDS 2.1 is running properly.
+%% An example to check if DDS 3.0 is running properly.
 
-%% Copyright (c) 2024, by
+%% Copyright (c) 2025, by
 %% Mehdi Karimi
 %% Levent Tuncel
 %% %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
