@@ -9,13 +9,13 @@ functions (including as special cases geometric programming and entropy programm
 - Generalized power cone
 - Epigraphs of matrix norms (including as a special case minimization of nuclear norm over a linear subspace)
 - Vector relative entropy
-- Quantum entropy and quantum relative entropy
-- Hyperbolic polynomials
+- Quantum entropy and quantum relative entropy (**updated Dec 2023**)
+- Hyperbolic polynomials (**updated Feb 2026**)
 
 DDS is a practical implementation of the infeasible-start primal-dual algorithm designed and analyzed in [this paper](https://arxiv.org/abs/1804.06925). 
 
 ## Updates
-- **DDS 3.0**, released in **January 2026**, includes a fundamental update for solving **hyperbolic programming** problems, enabling efficient handling of polynomials represented as **straight-line programs (SLPs)**.
+- **DDS 3.0**, released in **January 2026**, includes a fundamental update for solving **hyperbolic programming** problems, enabling efficient handling of polynomials represented as **straight-line programs (SLPs)**. Please see [this paper](https://arxiv.org/abs/2602.23260). There are multiple instances in our [benchmark library for hyperbolic programming](https://github.com/mehdi-karimi-math/Library-for-Modern-Convex-Optimization/tree/main/Hyperbolic%20Programming). 
 - **DDS 2.2** is released in Dec 2023, with extensive update for **quantum relative entropy (QRE) programming**. The current version can solve much larger instances of QRE programming. Please see [this paper](https://arxiv.org/abs/2312.07438).
 
 ## Installation 
