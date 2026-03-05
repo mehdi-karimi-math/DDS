@@ -50,3 +50,5 @@ To see how to define `c,A,b,cons` and how to add different types of set/function
 To cite DDS software package in your work, you can cite [this paper](https://arxiv.org/abs/1908.03075v2).
 
 To cite DDS 2.2 for solving quantum relative entorpy (QRE), please additionally cite [this paper](https://arxiv.org/abs/2312.07438).
+
+To cite DDS 3.0 for solving hyperbolic programming problems, please additionally cite [this paper](https://arxiv.org/abs/2602.23260).
